@@ -12,9 +12,9 @@ export default function Home() {
 
       <Navbar />
       <Aurora_Background/>
-        <Projects/>
-        <Skills/>
-        <ContactForm/>
+      <Projects/>
+      <Skills/>
+      <ContactForm/>
 
 
 
