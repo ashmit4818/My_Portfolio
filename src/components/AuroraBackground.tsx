@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { FlipWords } from "@/components/ui/flip-words";
 import Image from "next/image";
-import Link from "next/link";
+
 
 export function Aurora_Background() {
   // Initial words array without "DevOps Enthusiast"

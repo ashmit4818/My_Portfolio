@@ -7,7 +7,7 @@ import {
   IconBrandLinkedin,
  
 } from "@tabler/icons-react";
-import Image from "next/image";
+
 
 export function Footer() {
   const links = [

@@ -3,25 +3,18 @@ import React from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/utils/cn";
-import {
-    IconBrandGithub,
-    IconBrandGoogle,
-    IconBrandOnlyfans,
-} from "@tabler/icons-react";
+
 import Image from "next/image";
 
 export function ContactForm() {
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        console.log("Form submitted");
-    };
+    
     return (
         <div id="contact" className="  mx-20 max-sm:mx-10 rounded-none md:rounded-2xl p-4  md:p-8 pb-0 shadow-input bg-white dark:bg-black">
             <h2 className="font-bold text-5xl text-neutral-800 dark:text-neutral-200 ">
                 Give Feedback
             </h2>
             <p className="text-neutral-600 text-md max-w-md mt-2 dark:text-neutral-300">
-            Join the fun and help us shake the web! Spot a bug? Share your brilliant feedback here and let's make the site unstoppable! 🚀💡
+            Join the fun and help us shake the web! Spot a bug? Share your brilliant feedback here and let&apos;s make the site unstoppable! 🚀💡
             </p>
 
             <form className="mt-8" method="POST" action="https://formspree.io/f/mrbgzlvk">
