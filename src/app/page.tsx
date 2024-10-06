@@ -4,6 +4,7 @@ import { Aurora_Background } from "@/components/AuroraBackground";
 import {Projects} from "@/components/Projects";
 import {Skills} from "@/components/Skills";
 import {ContactForm} from "@/components/ContactForm";
+import { Footer } from "@/components/Footer";
 
 
 export default function Home() {
@@ -15,10 +16,7 @@ export default function Home() {
       <Projects/>
       <Skills/>
       <ContactForm/>
-
-
-
-
+      <Footer/>
 
     </div>
   );

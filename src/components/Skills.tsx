@@ -15,7 +15,7 @@ import React from "react";
 export function Skills() {
     return (
         <div id="skills" className="pb-20">
-            <div className="md:text-5xl lg:text-7xl sm:text-3xl font-bold dark:text-white text-3xl mb-20 mt-14 max-sm:mt-20 text-center">Skills</div>
+            <div className="md:text-5xl lg:text-6xl sm:text-3xl font-bold dark:text-white text-3xl mb-20 mt-14 max-sm:mt-20 text-center">Skills</div>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 mx-20 max-sm:mx-5  justify-items-center">
                 <GlareCard className="flex flex-col items-center justify-center">
                     <TbBrandCpp size={50} color={"white"}/>
