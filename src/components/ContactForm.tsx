@@ -10,7 +10,7 @@ export function ContactForm() {
     
     return (
         <div id="contact" className="  mx-20 max-sm:mx-10 rounded-none md:rounded-2xl p-4  md:p-8 pb-0 shadow-input bg-white dark:bg-black">
-            <h2 className="font-bold text-5xl text-neutral-800 dark:text-neutral-200 ">
+            <h2 className="font-bold text-5xl max-sm:text-3xl text-neutral-800 dark:text-neutral-200 ">
                 Give Feedback
             </h2>
             <p className="text-neutral-600 text-md max-w-md mt-2 dark:text-neutral-300">
@@ -43,7 +43,7 @@ export function ContactForm() {
                     className="mt-1/3 bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
                     type="submit"
                 >
-                    Sign up &rarr;
+                    Submit &rarr;
                     <BottomGradient/>
                 </button>
 
