@@ -61,7 +61,7 @@ export function Aurora_Background() {
           </div>
           <div>
             <Image
-              src="https://i.ibb.co/rsQndV9/logohero.png"
+              src="https://i.ibb.co/jDfy8wn/logo.png"
               width={800}
               height={500}
               alt="aurora"
